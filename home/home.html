@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="SHORTCUT ICON" href="../images/fav-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="home.js"></script>
+  </head>
+  <body>
+    <header>
+      <h3>Olá, <b class="username"></b>.</h3>
+      <aside class="container-logo">
+        <img class="logo" src="../images/logo.png" alt="Logo" />
+      </aside>
+      <section class="container-focusTime-button">
+        <button class="focusTime-button" id="focusTime-button">
+          <img
+            class="clock-icon"
+            src="../images/clock-icon.png"
+            alt="Ícone relógio"
+          />
+          <article class="focusTime-text">focus Time</div>
+        </button>
+      </section>
+    </header>
+
+    <section class="container-criarColuna">
+      <aside class="criarColuna-button-container" id="add-column-button">
+        <img class="plus-icon" src="../images/plus-icon.png" alt="Ícone adição" />
+        <button class="criarColuna-button">
+          criar coluna
+        </button>
+      </aside>
+
+      <aside class="columns-container" id="columns-container"></div>
+    </section>
+    <section id="overlay-content">
+
+      <section class="modal">
+        <article class="body-modal">
+          <input
+            type="text"
+            placeholder="Nome da coluna (máximo de 16 caracteres)."
+            maxlength="16"
+            id="name-column-input"
+          />
+          <button class="save-column-name-button">Salvar</button>
+        </article>
+        
+        <article class="footer-modal">
+          <button class="modal-close">Fechar</button>
+        </article>
+      </section>
+
+    </section>
+  </body>
+</html>

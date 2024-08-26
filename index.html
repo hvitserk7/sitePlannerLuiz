@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scholar Planner</title>
+    <link rel="SHORTCUT ICON" href="images/fav-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="keyframes.css" />
+  </head>
+  <body>
+    <aside class="logo-container">
+      <img src="images/logo.png" alt="Logo" class="scholar-planner-logo" />
+    </aside>
+
+    <header class="header-container">
+      <article class="welcome-title">
+        <h3>SEJA BEM-VINDO(A) AO SCHOLAR PLANNER</h3>
+      </article>
+  
+      <article class="welcome-description">
+        <h5>Uma plataforma desenvolvida para auxiliar nos seus estudos.</h5>
+      </article>
+    </header>
+
+    <aside class="form-container">
+      <form>
+        <label for="username">Digite seu nome:</label>
+        <input type="text" id="username" name="username" />
+        <label for="username">Digite sua idade:</label>
+        <input type="number" id="idade" name="idade" />
+        <label for="username">Digite seu E-mail:</label>
+        <input type="email" id="email" name="email" />
+        <label for="username">Digite seu telefone:</label>
+        <input type="number" id="number" name="numero" />
+      
+        <label for="option">Sexualidade:</label>
+        <select id="option">
+          <option value="maca">Feminino</option>
+          <option value="banana">Masculino</option>
+          <option value="#">Prefiro não escolher</option>
+        </select>
+
+        <p class="message-error"></p>
+        <button type="button" id="login-button">Entrar</button>
+      </form>
+    </aside> 
+
+    <script src="script.js"></script>
+  </body>
+</html>
