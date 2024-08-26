@@ -29,7 +29,7 @@ function login() {
   } else {
     messageError.style.display = 'none'; 
     setUsername();
-    window.location.href = '../src/home/home.html'; 
+    window.location.href = 'https://hvitserk7.github.io/sitePlannerLuiz/home/home.html'; 
   }
 }
 
